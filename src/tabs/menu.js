@@ -1,8 +1,6 @@
 function Menu() {
   const markup = `
    <div class="menu">
-        <h2>Our Menu</h2>
-
         <h3>Starters</h3>
         <div class="menu-item">
           <h4>Achu Soup</h4>

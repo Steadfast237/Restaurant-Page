@@ -1,7 +1,6 @@
 function About() {
   const markup = `
     <div class="about">
-        <h2>About Us</h2>
         <p>
           At Taste of Cameroon, we pride ourselves on offering a genuine taste
           of Cameroon through our carefully curated menu and welcoming

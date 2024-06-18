@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lora', serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  background-color: #f8f9fa;
+
+  height: 100vh;
+  display: grid;
+  grid-template-rows: auto 2fr auto;
+}
+
+header {
+  display: grid;
+  grid-template-rows: 2fr 1fr;
+  margin-bottom: 64px;
+}
+
+h1 {
+  font-size: 48px;
+  text-align: center;
+  padding: 32px 0px;
+}
+
+ul {
+  list-style-type: none;
+
+  display: grid;
+  column-gap: 16px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+ul .btn {
+  width: 100%;
+  padding: 16px 0;
+  font-size: inherit;
+  border: none;
+  cursor: pointer;
+  border-top: solid;
+  border-bottom: solid;
+  background-color: #f8f9fa;
+}
+
+ul .btn:hover {
+  background-color: #e9ecef;
+}
+
+h1,
+h2,
+ul .btn {
+  font-family: 'Archivo Black', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+footer {
+  padding: 16px 0;
+  text-align: center;
+}
+
+#content {
+  padding: 0 183px;
+
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.home {
+  gap: 16px;
+  height: 100%;
+}
